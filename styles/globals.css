@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 html,
 body {
   padding: 0;
@@ -5,12 +10,74 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #54B689;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #347054;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3f8363;
+}
+
+.toggle-checkbox:checked {
+  @apply: right-0 border-green-400;
+  right: 0;
+  border-color: #68D391;
+}
+.toggle-checkbox:checked + .toggle-label {
+  @apply: bg-green-400;
+  background-color: #68D391;
+}
+
+.sociala {
+  @apply p-2 m-1 bg-white rounded-full hover:bg-gray-g200 transition ease-out duration-200 cursor-pointer
+}
+
+.listyle{
+  @apply p-2 flex items-center
+}
+
+.menua{
+  @apply flex left-0 items-center w-full text-base font-bold text-gray-g100  pr-8 pl-8   hover:text-gray-g600 transition ease-in-out duration-300 cursor-pointer 
+}
+
+.active{
+  @apply flex left-0 items-center w-full text-base font-bold pr-8 pl-8 text-gray-g600 transition ease-in-out duration-300 cursor-pointer 
+}
+
+.insidea{
+  @apply text-green-main hover:opacity-80 cursor-pointer 
+}
+
+.insidea2{
+  @apply text-gray-g500 text-sm hover:opacity-80 cursor-pointer underline
+}
+
+.greenbutton{
+  @apply bg-green-main hover:text-gray-g200 text-gray-g100 font-bold py-2 px-4 rounded inline-flex items-center
+}
+
+.graybutton{
+  @apply bg-gray-g700 hover:text-gray-g200 text-gray-g100 font-bold py-2 px-4 rounded inline-flex items-center
+}
+
+
+svg{
+  fill: #54B689;
 }
