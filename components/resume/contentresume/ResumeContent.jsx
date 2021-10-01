@@ -125,14 +125,14 @@ const ContentResume = () => {
                     <h4 className="text-green-main text-xl font-bold border-l-8 border-green-main p-2">Work Expriences</h4>
                     {
                         titles.map((data, index) => (
-                            <Section title={data} date={dates[index]} desc={desc[index]} />
+                            <Section key={data} title={data} date={dates[index]} desc={desc[index]} />
                         ))
                     }
 
                     <h4 className="text-green-main text-xl font-bold border-l-8 border-green-main p-2">Projects</h4>
                     {
                         titles.map((data, index) => (
-                            <Section title={data} date={dates[index]} desc={desc[index]} />
+                            <Section key={data} title={data} date={dates[index]} desc={desc[index]} />
                         ))
                     }
                 </section>

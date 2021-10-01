@@ -9,7 +9,7 @@ const Aside = ({ header, title, items }) => {
                 <div className="flex flex-col mt-2">
                     {
                         items.map((item) => (
-                            <p className="text-sm text-gray-g600 mt-2">
+                            <p key={item} className="text-sm text-gray-g600 mt-2">
                                 {item}
                             </p>
                         ))
