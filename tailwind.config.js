@@ -10,7 +10,8 @@ module.exports = {
       green: {
         gr100: "D1FAE5",
         gr200: "A7F3D0",
-        main: "#54B689"
+        main: "#54B689",
+        mainlight: "#33FF9E"
       },
       gray: {
         g50: "#fafafa",

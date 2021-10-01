@@ -1,4 +1,4 @@
-import ContentResume from "./ContentResume";
+import ContentResume from "./contentresume/ResumeContent";
 import TopResume from "./Topresume";
 
 const Resume = () => {
