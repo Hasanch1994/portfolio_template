@@ -1,4 +1,4 @@
-const Section = ({ title, img, desc }) => {
+const home = ({ title, img, desc }) => {
     return (
         <div className="flex flex-col w-1/4 p-4 justify-center">
             {
@@ -15,4 +15,4 @@ const Section = ({ title, img, desc }) => {
     );
 }
 
-export default Section;
+export default home;

@@ -1,5 +1,4 @@
-import Section from "./section";
-
+import Section from './Section'
 const WhatIDo = () => {
   const titles = ["Android", "NodeJs", "Javacript", "ReactJs", "Java", "Kotlin", "Mongodb", "SocketIO"];
   const descriptions = [
