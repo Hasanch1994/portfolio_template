@@ -22,7 +22,7 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #54B689;
+  background: #767e7a;
 }
 
 /* Handle */
@@ -46,7 +46,7 @@ body {
 }
 
 .sociala {
-  @apply p-2 m-1 bg-white rounded-full hover:bg-gray-g200 transition ease-out duration-200 cursor-pointer
+  @apply p-2 m-1 bg-white  rounded-full hover:bg-gray-g200 transition ease-out duration-200 cursor-pointer
 }
 
 .listyle{
@@ -54,11 +54,11 @@ body {
 }
 
 .menua{
-  @apply flex left-0 items-center w-full text-base font-bold text-gray-g100  pr-8 pl-8   hover:text-gray-g600 transition ease-in-out duration-300 cursor-pointer 
+  @apply flex left-0 items-center w-full text-base font-bold text-gray-g100  pr-8 pl-4  hover:text-gray-g600 transition ease-in-out duration-300 cursor-pointer 
 }
 
 .active{
-  @apply flex left-0 items-center w-full text-base font-bold pr-8 pl-8 text-gray-g600 transition ease-in-out duration-300 cursor-pointer 
+  @apply flex left-0 items-center w-full text-base font-bold pr-8 pl-4 dark:text-green-main text-gray-g600 transition ease-in-out duration-300 cursor-pointer 
 }
 
 .insidea{

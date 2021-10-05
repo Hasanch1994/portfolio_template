@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main>
       <Head>
-        <title>Hasan Chergahi</title>
+        <title>Hasan Cheraghi</title>
         <meta name="description" content="حسن چراغی . مدرس  و برنامه نویس اندروید " />
         <link rel="icon" href="/favicon.ico" />
       </Head>

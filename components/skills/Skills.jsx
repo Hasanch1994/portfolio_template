@@ -3,7 +3,7 @@ import TopSkills from "./TopSkills";
 
 const Skilss = () => {
     return (
-        <section className="flex flex-col justify-center items-center">
+        <section className="flex h-screen flex-col items-center dark:bg-gray-gblack">
 
             <TopSkills />
 

@@ -1,10 +1,10 @@
 const SkillContents = () => {
     return (
-        <article className="flex flex-col mt-8 mb-8 bg-gray-g50 w-5/6 rounded-sm shadow-2xl justify-center items-center">
+        <article className="flex flex-col mt-8 mb-8 bg-gray-g50 dark:bg-gray-g800 w-5/6 rounded-sm shadow-2xl justify-center items-center">
 
             {/* skilss */}
             <div className="flex flex-col p-2 w-full">
-                <h4 className="text-green-main text-xl font-bold border-l-8 border-green-main p-2">Skills</h4>
+                <h4 className="text-green-main dark:text-white text-xl font-bold border-l-8 border-green-main p-2">Skills</h4>
 
                 <div className="flex flex-row overflow-hidden rounded-md bg-green-main w-full mt-4 items-center">
                     <div role="progressbar" data-percent="100%" className="bg-green-mainlight w-1/2 p-1">

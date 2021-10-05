@@ -1,7 +1,23 @@
 module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
+    screens: {
+      '2xl': { 'max': '1535px' },
+      // => @media (max-width: 1535px) { ... }
+
+      'xl': { 'max': '1279px' },
+      // => @media (max-width: 1279px) { ... }
+
+      'lg': { 'max': '1023px' },
+      // => @media (max-width: 1023px) { ... }
+
+      'md': { 'max': '767px' },
+      // => @media (max-width: 767px) { ... }
+
+      'sm': { 'max': '639px' },
+      // => @media (max-width: 639px) { ... }
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -11,7 +27,7 @@ module.exports = {
         gr100: "D1FAE5",
         gr200: "A7F3D0",
         main: "#54B689",
-        mainlight: "#33FF9E"
+        mainlight: "#2BDC88"
       },
       gray: {
         g50: "#fafafa",
@@ -22,18 +38,20 @@ module.exports = {
         g500: "#6B7280",
         g600: "#4B5563",
         g700: "#374151",
-        g800: "#1F2937",
+        g800: "#1c313a",
+        gblack: "#102027"
       }
     },
     extend: {},
   },
-  fill: theme => ({
-    'red': theme('colors.red.500'),
-    'green': theme('colors.green.500'),
-    'blue': theme('colors.blue.500'),
-  }),
+  fill: {
+    current: '#54B689'
+  },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ['dark'],
+      textColor: ['dark']
+    },
   },
   plugins: [],
 }

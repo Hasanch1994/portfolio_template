@@ -3,7 +3,7 @@ import WhatIDo from "./ido/WhatIDo";
 
 const About = () => {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col bg-white dark:bg-black">
             <AboutHeader />
 
             {/* what I do */}

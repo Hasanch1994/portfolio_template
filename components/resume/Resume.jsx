@@ -3,7 +3,7 @@ import TopResume from "./Topresume";
 
 const Resume = () => {
     return (
-        <main className="flex flex-col justify-center items-center">
+        <main className="flex flex-col justify-center items-center dark:bg-gray-gblack">
             <TopResume />
 
             <ContentResume />
