@@ -8,6 +8,14 @@
   height: 100vh;
 }
 
+.portfolioitem:hover .portfolioitemon{
+  display: block;
+}
+
+.portfolioitemon{
+  display: none;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;

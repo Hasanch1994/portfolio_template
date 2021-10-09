@@ -39,7 +39,8 @@ module.exports = {
         g600: "#4B5563",
         g700: "#374151",
         g800: "#1c313a",
-        gblack: "#102027"
+        gblack: "#102027",
+        gtrans: "#05757575"
       }
     },
     extend: {},
@@ -54,4 +55,5 @@ module.exports = {
     },
   },
   plugins: [],
+
 }
