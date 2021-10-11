@@ -15,7 +15,7 @@ const LeftSide = () => {
             <Image src="/images/profileimage.jpg" alt="hasan cheraghi image" className="rounded-full mt-8 object-cover" width="150" height="150" />
 
             <p className="text-gray-g100 text-sm text-center mr-3 ml-3">
-                Hi. this is Hasan Cheraghi. I'm programmer and I've expriences in android developing and javascript
+                Hi. I'm Hasan Cheraghi. I'm a programmer and I've experience in android development and reactjs
             </p>
 
             <div className="flex items-center mt-4">
@@ -32,6 +32,11 @@ const LeftSide = () => {
                 <a className="sociala" href="mailto:hasan.cheraghi1994@gmail.com" rel="noopener noreferrer">
                     {/* email icon */}
                     <svg id="Capa_1" enableBackground="new 0 0 479.058 479.058" height="15px" viewBox="0 0 479.058 479.058" width="15px" xmlns="http://www.w3.org/2000/svg"><path d="m434.146 59.882h-389.234c-24.766 0-44.912 20.146-44.912 44.912v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159l-200.355 173.649-200.356-173.649c1.769-.736 3.704-1.159 5.738-1.159zm0 299.411h-389.234c-8.26 0-14.971-6.71-14.971-14.971v-251.648l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z" /></svg>
+                </a>
+
+                <a className="sociala" href="https://www.linkedin.com/in/hasan-cheraghi-849013138/" rel="noopener noreferrer">
+                    {/* linkedin icon */}
+                    <svg width="15px" height="15px" className="svg-inline--fa fa-linkedin-in fa-w-14 fa-fw" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
                 </a>
 
             </div>

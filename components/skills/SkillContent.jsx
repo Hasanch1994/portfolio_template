@@ -2,17 +2,18 @@ import SkillContentItem from "./SkillContentItem";
 
 const SkillContents = () => {
     const titles = [
-        "Android Java (MVVM,DAGGER,MVP,RXJAVA)",
-        "React / Nextjs",
-        "Javascript (ECM5,ECM6)",
+        "Android(mvvm,dagger,rxjava)",
+        "React/Nextjs",
+        "Javascript(ECM5,ECM6)",
         "Typescript",
         "NodeJs",
         "HTML5",
         "CSS3",
         "Tailwindcss",
         "Bootstrap",
-        "SQL DB (SQL server,Mysql,Sqlite,Room)",
-        "NOSQL DB (Cassandra,Mongo)"
+        "Mysql,Room",
+        "Mongo",
+        "git(github,gitlab)"
     ]
 
 
@@ -26,8 +27,9 @@ const SkillContents = () => {
         "80%",
         "75%",
         "50%",
+        "45%",
         "30%",
-        "30%"
+        "75%"
     ]
 
     return (
@@ -45,10 +47,9 @@ const SkillContents = () => {
 
             {/* programs */}
             <div className="flex flex-col p-2 w-full mt-5">
-                <h4 className="text-green-main dark:text-white text-xl font-bold border-l-8 border-green-main p-2">Programs</h4>
-                <SkillContentItem title={'Photoshop'} percent={'30%'} />
-
-
+                <h4 className="text-green-main dark:text-white text-xl font-bold border-l-8 border-green-main p-2">Etc</h4>
+                <SkillContentItem title={'Forex Trader (Price Action)'} percent={'40%'} />
+                <SkillContentItem title={'Crypto Trader (Price Action)'} percent={'40%'} />
             </div>
 
         </article>

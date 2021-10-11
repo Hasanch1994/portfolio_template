@@ -8,12 +8,11 @@ export default function Home() {
     <main>
       <Head>
         <title>Hasan Cheraghi</title>
-        <meta name="description" content="حسن چراغی . مدرس  و برنامه نویس اندروید " />
+        <meta name="description" content="Hasan cheraghi. android react developer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <RightSide />
-
 
     </main>
   )

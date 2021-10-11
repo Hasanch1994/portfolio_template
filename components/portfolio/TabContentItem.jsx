@@ -13,8 +13,8 @@ const TabContentItem = ({ imgUrl, title, desc, forCompany }) => {
 
             <div className="flex flex-col w-full m-2">
                 <h2 className="text-gray-gblack text-base">{title}</h2>
-                <p className="mt-2 text-gray-g400 text-sm">{desc}</p>
-                <p className="mt-2 text-gray-g300">{forCompany}</p>
+                <p className="mt-2 text-gray-g500 text-sm">{desc}</p>
+                <p className="mt-2 text-green-main">{forCompany}</p>
             </div>
         </div >
     );

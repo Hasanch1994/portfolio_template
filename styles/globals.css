@@ -78,11 +78,11 @@ body {
 }
 
 .greenbutton{
-  @apply bg-green-main hover:text-gray-g200 text-gray-g100 font-bold py-2 px-4 rounded inline-flex items-center
+  @apply md:w-full bg-green-main hover:text-gray-g200 text-gray-g100 font-bold py-2 px-4 rounded inline-flex items-center
 }
 
 .graybutton{
-  @apply bg-gray-g700 hover:text-gray-g200 text-gray-g100 font-bold py-2 px-4 rounded inline-flex items-center
+  @apply md:w-full md:mt-4 md:ml-0 ml-4 bg-gray-g700 hover:text-gray-g200 text-gray-g100 font-bold py-2 px-4 rounded inline-flex items-center
 }
 
 .aboutheader{
